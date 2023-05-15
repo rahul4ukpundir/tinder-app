@@ -1,0 +1,31 @@
+
+.chat{
+    display: flex;
+    align-items: center;
+}
+.chat>label{
+    font-size: 10px;
+    color:gray;
+}
+.chat>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.chat__info{
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.chat__info>h3{
+    font-size: 13px;
+}
+
+.chat__info>label{
+    font-size: 10px;
+    color:gray;
+}
+a{
+    text-decoration: none  !important;
+    color:inherit
+}
